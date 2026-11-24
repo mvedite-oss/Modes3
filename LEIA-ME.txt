@@ -1,0 +1,19 @@
+MV MODS — site simples (5 arquivos)
+
+  index.html  -> a página
+  style.css   -> o visual
+  app.js      -> todo o funcionamento (catálogo, login, painel ADM)
+  banco.sql   -> o banco de dados (cole no Supabase, uma vez)
+  LEIA-ME.txt -> este arquivo
+
+COMO COLOCAR PARA FUNCIONAR
+1) Banco: Supabase > SQL Editor > New query > cole o conteúdo de banco.sql > Run.
+   (pode rodar de novo sem problema)
+2) Conta ADM: cadastre-se no site com o e-mail miguelccc360@gmail.com
+   (confirme o e-mail). Essa conta vira ADM sozinha e aparece o botão "ADM".
+3) Site: suba index.html, style.css e app.js no GitHub Pages (ou Netlify).
+   Nao precisa instalar nada.
+4) No Supabase > Authentication > URL Configuration, ponha o endereço do seu
+   site em "Site URL" (para os e-mails de confirmar/recuperar senha).
+
+No topo do app.js ficam SUPABASE_URL e SUPABASE_KEY (já preenchidos com os do seu projeto).
